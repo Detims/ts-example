@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-
+import { assets } from "./assets/assets";
 /*
   1. Navigation bar
     - top or left side of screen
@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      <img src={assets["tetParade"]}/>
     </div>
   );
 }

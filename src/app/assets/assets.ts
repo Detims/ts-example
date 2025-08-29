@@ -1,4 +1,5 @@
 import tetParade from "./tetParade.jpg";
+import logo from "./Logo.png";
 
 // To get the images, use:
 // import { assets } from "../assets";
@@ -7,4 +8,5 @@ import tetParade from "./tetParade.jpg";
 
 export const assets: {[key:string] : any} = {
     "tetParade" : tetParade,
+    "logo" : logo,
 }

@@ -1,7 +1,7 @@
 import { assets } from "../assets/assets";
 import Image from "next/image";
 
-export default function Navbar() {
+export default function Navbar(): any {
     return(
         <nav className="fixed top-0 px-6 py-4 w-full flex items-center justify-between bg-stone-400 text-xl  shadow-xl">
             <Image className="w-12 h-12 mr-3" src={assets["logo"]} alt="" />

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import { assets } from "./assets/assets";
 import Image from "next/image";
 import Caro from "./components/Caro";
+import BussSwap from "./components/BussSwap";
 /*
   1. Navigation bar
     - top or left side of screen
@@ -24,6 +25,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Caro />
+      {/* <BussSwap /> */}
       {/* <div className="py-12 px-12 mt-16 relative flex flex-row items-center justify-center gap-12">
         <div className="w-full flex justify-center">
           <Image src={assets["tetParade"]} alt="Tet Parade" />

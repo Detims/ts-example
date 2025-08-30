@@ -1,6 +1,7 @@
 import tetParade from "./tetParade.jpg";
 import logo from "./Logo.png";
-import lunarNight from "./lunarNight.jpg";
+import tetParade2 from "./tetParade2.png";
+import expo from "./expo.png";
 
 // To get the images, use:
 // import { assets } from "../assets";
@@ -10,5 +11,6 @@ import lunarNight from "./lunarNight.jpg";
 export const assets: {[key:string] : any} = {
     "tetParade" : tetParade,
     "logo" : logo,
-    "lunarNight" : lunarNight,
+    "tetParade2" : tetParade2,
+    "expo" : expo,
 }

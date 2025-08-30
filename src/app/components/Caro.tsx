@@ -49,11 +49,15 @@ export default function Caro(this: any): any {
           {images.map((item, index) => {
             return(
               <div
-                className='py-12 px-12 mt-16 relative flex flex-row items-center justify-center gap-8'
+                className='py-12 px-12 mt-16 w-full h-[600px] flex flex-row items-center justify-center gap-8'
                 key={index}
               >
-                <Image src={assets[item]} alt={item}/>
-                <h1 className='text-black'>This is text on a screen.</h1>
+                <Image 
+                  className='relative w-2/3 h-full'
+                  src={assets[item]} 
+                  alt={item}
+                />
+                <h1 className='w-1/3 text-black'>This is text on a screen.</h1>
               </div>
             )
           })}

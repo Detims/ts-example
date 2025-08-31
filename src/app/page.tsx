@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Caro />
-      {/* <BussSwap /> */}
+      {/* <Caro /> */}
+      <BussSwap />
       {/* <div className="py-12 px-12 mt-16 relative flex flex-row items-center justify-center gap-12">
         <div className="w-full flex justify-center">
           <Image src={assets["tetParade"]} alt="Tet Parade" />

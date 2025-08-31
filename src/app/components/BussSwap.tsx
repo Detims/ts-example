@@ -9,7 +9,11 @@ import { useState } from "react";
 
 export default function BussSwap(): any {
     const photos : Array<any> = [tetParade, tetParade2, expo];
-    const descriptions : Array<string> = [];
+    const descriptions : Array<string> = [
+        "Four individuals are holding a banner representing the UVSA organization during a parade.",
+        "Two individuals are holding a banner representing the UVSA organization during a parade.",
+        "Several individuals are performing in rhythm to traditional Vietnamese music on stage during the Asian American Expo.",
+    ];
     const [index, setIndex] = useState(0);
 
     const increaseIndex = () => {
@@ -27,7 +31,7 @@ export default function BussSwap(): any {
                 onClick={decreaseIndex}
             >&lt;</button>
             <Image className='w-3/5' src={photos[index]} alt=""/>
-            <h1 className="w-1/5">Description {index}</h1>
+            <h1 className="w-1/5">{descriptions[index]}</h1>
             <button 
                 className="rounded-full h-10 w-10 text-center"
                 onClick={increaseIndex}
